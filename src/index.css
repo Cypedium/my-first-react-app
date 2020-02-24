@@ -5,12 +5,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-color: #e2f2f3;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */
 
 /*! 
  * Primitive UI | MIT License
@@ -46,7 +48,8 @@ code {
  * Remove the margin in all browsers.
  */
 body {
-  margin: 0; }
+  margin: 0; 
+}
 
 /**
  * Render the `main` element consistently in IE.
@@ -60,7 +63,8 @@ main {
  */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0; }
+  margin: 0.67em 0; 
+}
 
 /* Grouping content
    ========================================================================== */
@@ -91,8 +95,8 @@ pre {
 /**
  * Remove the gray background on active links in IE 10.
  */
-a {
-  background-color: transparent; }
+/* a {
+  background-color: transparent; } */
 
 /**
  * 1. Remove the bottom border in Chrome 57-
@@ -354,7 +358,7 @@ html {
 
 body {
   color: #404040;
-  background: white;
+  
   font-size: 1rem; }
 
 p,
@@ -460,7 +464,7 @@ pre {
     line-height: 1.2; }
 
 kbd {
-  background-color: #f7f7f7;
+  /* background-color: #f7f7f7; */
   border: 1px solid #ccc;
   border-radius: 3px;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), 0 0 0 2px #fff inset;
@@ -723,7 +727,7 @@ a.full-button {
  */
 [type=color], [type=date], [type=datetime], [type=datetime-local], [type=email], [type=month], [type=number], [type=password], [type=search], [type=tel], [type=text], [type=url], [type=week], [type=time], select, textarea {
   display: block;
-  border: 1px solid #dedede;
+  border: 1px solid #3713d8;
   border-radius: 4px;
   padding: .75rem;
   outline: none;
@@ -816,7 +820,11 @@ tfoot th {
 td {
   border-bottom: 1px solid #dedede; }
 
-th,
+th {
+  font-size: larger;
+  text-align: left;
+  padding: .5rem; }
+  
 td {
   text-align: left;
   padding: .5rem; }
@@ -826,8 +834,8 @@ caption {
   caption-side: bottom;
   color: #ababab; }
 
-.striped-table tbody tr:nth-child(odd) {
-  background-color: #f8f8f8; }
+/* .striped-table tbody tr:nth-child(odd) {
+  background-color: #0dc7f5; } */
 
 .contain-table {
   overflow-x: auto; }
