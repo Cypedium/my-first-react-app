@@ -1,4 +1,4 @@
-import React, {Component} from 'react' ;
+import React, {Component, Fragment} from 'react' ;
 import TextInput from "./components/TextInput";
 import Table from "./components/Table";
 import Form from "./components/Form";
@@ -21,12 +21,12 @@ class App extends Component {
     this.setState({ characters: [...this.state.characters, character] });
   } 
 
-
   render() {
-  const name = "Mikael";
+
+    const name = "Mikael";
   
   return (
-      <fragment className="container">
+      <Fragment className="container">
        <header>
          <h1>My first react project</h1>
        </header>
@@ -35,7 +35,7 @@ class App extends Component {
         <TextInput name={name} />
         
         <footer>&copy; {name} </footer>
-      </fragment>
+      </Fragment>
     );
   }
 }
